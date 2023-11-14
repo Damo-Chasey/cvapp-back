@@ -24,6 +24,5 @@ app.use(Router);
 
 app.listen(3001, () => {
   console.log("Server is running at port 3001");
-  document.write('<html><body><h3>Welcome to the backend!</h3></body></html>');
 });
 
