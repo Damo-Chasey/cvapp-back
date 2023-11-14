@@ -23,7 +23,8 @@ const db = mongoose.connection;
 
 app.use(Router);
 
-app.listen(3001, () => {
-  console.log(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(process.env.PORT || port, 
+  () => {console.log(process.env.PORT || port);
+
 });
 
